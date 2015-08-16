@@ -23,9 +23,9 @@
 }
 .sliderButton{
     border-radius:15px;
-    width:15px;
-    height:15px;
-    border:2px solid black;
+    width:10px;
+    height:10px;
+    border:1px solid white;
     position:absolute;
     top:5px;
 }
@@ -33,6 +33,6 @@
     background-color:blue;
 }
 .button-off{
-    background-color:yellow;
+    background-color:white;
     cursor:pointer;
 }
