@@ -30,7 +30,9 @@ var createCarousel = function(images){
             $(".sliderButton"+i).css("left", offset * (i+1) +  "px");
     }
     var iteration = 0;
+    alert(images.length);
     setInterval(function(){ 
+    	alert(iteration);
         showImage(iteration = iteration == images.length?0:iteration);
         iteration++; 
     }, 2000);
