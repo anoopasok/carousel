@@ -31,7 +31,7 @@ var createCarousel = function(images){
     }
     var iteration = 0;
     setInterval(function(){ 
-        showImage(iteration = iteration >= 10?0:iteration);
+        showImage(iteration = iteration == images.length?0:iteration);
         iteration++; 
     }, 2000);
     
