@@ -5,7 +5,7 @@ var showImage = function (x){
     $(".image" + x).show();
     $(".sliderButton" + x).addClass("button-on");
     $(".sliderButton" + x).removeClass("button-off");
-}
+};
 var createCarousel = function(images){
     var counter=0;
     var imageHtml = "";
