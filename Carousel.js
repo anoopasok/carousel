@@ -29,6 +29,11 @@ var createCarousel = function(images){
     for (var i=0;i<images.length;i++){
             $(".sliderButton"+i).css("left", offset * (i+1) +  "px");
     }
-    showImage(0);
+    var iteration = 0;
+    setInterval(function(){ 
+        showImage(iteration = iteration >= 10?0:iteration);
+        iteration++; 
+    }, 2000);
+    
 	
 };
